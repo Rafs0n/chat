@@ -2,7 +2,7 @@ local isRDR = not TerraingridActivate and true or false
 
 local chatInputActive = false
 local chatInputActivating = false
-local chatLoaded = fal
+local chatLoaded = false
 
 RegisterNetEvent('chatMessage')
 RegisterNetEvent('chat:addTemplate')
